@@ -1,0 +1,25 @@
+*** TypeScript ***
+
+TypeScript is an open-source object-oriented language developed and maintained by Microsoft,
+
+TypeScript extends JavaScript by adding data types, classes, and other object-oriented features with type-checking. It is a typed superset of JavaScript that compiles to plain JavaScript.
+
+*** Why TypeScript? ***
+JavaScript is a dynamic programming language with no type system. JavaScript provides primitive types like string, number, object, etc., but it doesn't check assigned values. JavaScript variables are declared using the var keyword, and it can point to any value. JavaScript doesn't support classes and other object-oriented features. So, without the type system, it is not easy to use JavaScript to build complex applications with large teams working on the same code.
+
+Hence, the reason to use TypeScript is that it catches errors at compile-time, so that you can fix it before you run code. It supports object-oriented programming features like data types, classes, enums, etc., allowing JavaScript to be used at scale.
+
+TypeScript compiles into simple JavaScript. The TypeScript compiler is also implemented in TypeScript and can be used with any browser or JavaScript engines like Node.js. TypeScript needs an ECMAScript 3 or higher compatible environment to compile. This is a condition met by all browsers and JavaScript engines today.
+
+*** TypeScript Features ***
+Cross-Platform: TypeScript runs on any platform that JavaScript runs on. The TypeScript compiler can be installed on any Operating System such as Windows, macOS, and Linux.
+
+Object-Oriented Language: TypeScript provides powerful features such as Classes, Interfaces, and Modules. You can write pure object-oriented code for client-side as well as server-side development.
+
+Static type-checking: TypeScript uses static typing. This is done using type annotations. It helps type checking at compile time. Thus, you can find errors while typing the code without running your script each time. Additionally, using the type inference mechanism, if a variable is declared without a type, it will be inferred based on its value.
+
+Optional Static Typing: TypeScript static typing is optional, if you prefer to use JavaScript's dynamic typing.
+
+DOM Manipulation: Like JavaScript, TypeScript can be used to manipulate the DOM.
+
+ES 6 Features: TypeScript includes most features of planned ECMAScript 2015 (ES 6, 7) such as class, interface, Arrow functions etc.

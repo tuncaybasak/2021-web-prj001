@@ -1,0 +1,35 @@
+*** Type Inference in TypeScript ***
+
+TypeScript is a typed language. However, it is not mandatory to specify the type of a variable. TypeScript infers types of variables when there is no explicit information available in the form of type annotations.
+
+var a = "some text";
+var b = 123;
+a = b; // Compiler Error: Type 'number' is not assignable to type 'string'
+
+var arr = [0, 1, "test"]; 
+arr.push("str") // OK
+arr.push(true); // Compiler Error: Argument of type 'true' is not assignable to parameter of type 'string | number'
+
+The return type of a function is also inferred by the returning value. For example:
+function sum(a: number, b: number )
+{
+    return a + b;    
+}
+var total: number = sum(10,20); // OK
+var str: string = sum(10,20); // Compiler Error 
+
+
+*** Type Assertion in TypeScript ***
+
+There are two ways to do type assertion in TypeScript:
+
+1. Using the angular bracket <> syntax. So far in this section, we have used angular brackets to show type assertion.
+
+let code: any = 123; 
+let employeeCode = <number> code; 
+
+2. Using as keyword
+
+Example: as syntax Copy
+let code: any = 123; 
+let employeeCode = code as number;
